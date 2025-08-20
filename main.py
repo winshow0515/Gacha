@@ -22,8 +22,8 @@ reader = MFRC522(bus=SPI_BUS, device=SPI_DEV, pin_rst=PIN_RST)
 TYPE_A = {""}
 TYPE_B = {""}
 
-VIDEO_A = "/home/pi/Desktop/Gacha/a.mp4"
-VIDEO_B = "/home/pi/Desktop/Gacha/b.mp4"
+VIDEO_A = "/home/pi/Desktop/Gacha/video/a.mp4"
+VIDEO_B = "/home/pi/Desktop/Gacha/video/b.mp4"
 
 delaySec = 0.1
 
