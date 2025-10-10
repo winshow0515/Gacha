@@ -31,8 +31,6 @@ def record_uid(file_path):
 
 def main():
     print("請選擇要記錄的類別：")
-    print("類別 A")
-    print("類別 B")
     choice = input("輸入 A 或 B：").strip()
 
     if choice == "A":
