@@ -10,11 +10,11 @@
 # 使用方式
 ## 準備數莓派、RC522 和扭蛋
 
-將樹莓派和 RC522 RFID 模組連接如下圖
+將樹莓派和 RC522 RFID 模組連接如下圖  
 ![接線圖](./for_fritzing/RPi_RC522_接線圖.png)
 
 將 NFC 貼紙放進扭蛋中
-<img src="./Images/扭蛋特寫.jpg" width="150">
+<img src="./Images/扭蛋特寫.jpg" width="150">  
 
 ## 登入扭蛋 UID
 1. 建立 `uid_a.txt` 和 `uid_b.txt` 兩個空白文件
@@ -35,7 +35,7 @@ winsh@raspberrypi:~/Desktop/Gacha $ python3 record_uid.py
 ```
 
 ## 開始遊戲
-執行 `main.py` 即可開始，將裝有 NFC 貼紙的扭蛋靠近 RC522 模組，螢幕就會撥放對應的影片
+執行 `main.py` 即可開始，將裝有 NFC 貼紙的扭蛋靠近 RC522 模組，螢幕就會撥放對應的影片  
 ```
 winsh@raspberrypi:~/Desktop/Gacha $ python3 main.py
 === UID 名單已載入 ===
