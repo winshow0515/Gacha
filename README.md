@@ -11,7 +11,7 @@
 ## 準備數莓派、RC522 和扭蛋
 
 將樹莓派和 RC522 RFID 模組連接如下圖  
-![接線圖](./for_fritzing/RPi_RC522_接線圖.png)
+<img src="./Images/RPi_RC522_接線圖.png" width="600">
 
 將 NFC 貼紙放進扭蛋中
 <img src="./Images/扭蛋特寫.jpg" width="150">  
