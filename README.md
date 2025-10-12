@@ -2,19 +2,19 @@
 用樹莓派和 RC522 RFID 模組，做出能偵測扭蛋掉落並撥放動畫的扭蛋機。
 
 # 成果展示
-<img src="./Images/扭蛋機正面.jpg" width="600">
-<img src="./Images/扭蛋機背面.jpg" width="600">
-<img src="./Images/扭蛋機第一種結果.jpg" width="600">
-<img src="./Images/扭蛋機第二種結果.jpg" width="600">
+<img src="./Images/Gacha_machine front.jpg" width="600">
+<img src="./Images/Gacha_machine back.jpg" width="600">
+<img src="./Images/result1.jpg" width="600">
+<img src="./Images/result2.jpg" width="600">
 
 # 使用方式
 ## 準備數莓派、RC522 和扭蛋
 
 將樹莓派和 RC522 RFID 模組連接如下圖  
-<img src="./Images/RPi_RC522_接線圖.png" width="600">
+<img src="./Images/Breadboard.png" width="600">
 
 將 NFC 貼紙放進扭蛋中
-<img src="./Images/扭蛋特寫.jpg" width="150">  
+<img src="./Images/Gacha_close-up.jpg" width="150">  
 
 ## 登入扭蛋 UID
 1. 建立 `uid_a.txt` 和 `uid_b.txt` 兩個空白文件
